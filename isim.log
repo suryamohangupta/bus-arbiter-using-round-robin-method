@@ -1,0 +1,33 @@
+ISim log file
+Running: C:\.Xilinx\xilinx_work\rr\arbiter_k_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/.Xilinx/xilinx_work/rr/arbiter_k_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim2.wdb.
+ISim P.40xd (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:60 - The XILINXD_LICENSE_FILE environment variable is set to 'C:\.Xilinx\Xilinx.lic'.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is shadedsurya, on host SHADEDSURYA-PC.
+INFO:Security:15 - A feature for ISIM was found but is for the wrong hostid.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+Invalid host.
+ The hostid of this system does not match the hostid
+ specified in the license file.
+Feature:       ISIM
+Hostid:        002564c70bf3
+License path:  C:/.Xilinx\Xilinx (8).lic;C:/.Xilinx\Xilinx.lic;C:\Xilinx\14.3\ISE_DS\ISE\/data\*.lic;C:\Xilinx\14.3\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.3\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.3\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-9,57
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.acresso.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

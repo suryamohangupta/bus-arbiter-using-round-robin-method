@@ -1,0 +1,16 @@
+Running: C:\Xilinx\14.3\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/.Xilinx/xilinx_work/rr/arbiter_k_isim_beh.exe -prj C:/.Xilinx/xilinx_work/rr/arbiter_k_beh.prj work.arbiter_k work.glbl 
+ISim P.40xd (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/.Xilinx/xilinx_work/rr/rr.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.3/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module arbiter_k
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 2 Verilog Units
+Built simulation executable C:/.Xilinx/xilinx_work/rr/arbiter_k_isim_beh.exe
+Fuse Memory Usage: 27072 KB
+Fuse CPU Usage: 764 ms

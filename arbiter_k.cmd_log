@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/.Xilinx/xilinx_work/rr/arbiter_k.xst" -ofn "C:/.Xilinx/xilinx_work/rr/arbiter_k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 arbiter_k.ngc arbiter_k.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o arbiter_k_map.ncd arbiter_k.ngd arbiter_k.pcf 
